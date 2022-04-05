@@ -1,0 +1,51 @@
+
+.hero__copy h6 {
+  color: var(--color-primary);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1875rem;
+}
+
+.test__slider img {
+  width: 300px;
+}
+
+.testimonials {
+  background-color: var(--color-primary);
+  align-items: center;
+}
+
+.testimonials h3 {
+  margin: 0;
+  font-size: 3.125rem;
+  font-family: 700;
+}
+
+.testimonials h5 {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  letter-spacing: 0.1875rem;
+  margin: 0;
+  text-align: left;
+}
+
+.testimonials h2 {
+  margin: 0;
+  font: 'montserrat';
+  font-size: 5.25rem;
+  font-weight: 700;
+
+}
+
+.testimonials p {
+  margin: 0;
+}
+
+
+.testimonials__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  place-items: center;
+  padding: 4.375rem 1rem;
+}

@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Mobile*/
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.22vw;
+  color: var(--color-copy);
+}
+
+/*Tablet*/
+@media screen and (min-width: 720px) {
+  :root {
+    font-size: 2.25vw;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 1279px) {
+  :root {
+    font-size: 16px;
+  }  
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header,
+main,
+footer {
+  overflow-x: hidden;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.logo-studion {
+  font-weight: 900;
+  font-size: 2.375rem;
+  line-height: 1ch;
+  text-align: right;
+  text-transform: uppercase;
+}
+.logo-studion__subtitle {
+  font-size: 0.875rem;
+  font-weight: 300;
+  float: right;
+}
+
+.logo-studion a {
+  text-decoration: none;
+  color: #fff;
+}

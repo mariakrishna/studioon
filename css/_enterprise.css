@@ -1,0 +1,20 @@
+.enterprise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 4rem;
+}
+
+.text__container,
+.img__container {
+  width: 28rem;
+}
+
+.brands {
+  background-color: var(--color-primary);
+  padding: 4.0625rem;
+}
+
+.video {
+  padding: 5rem;
+  place-items: center;
+}
